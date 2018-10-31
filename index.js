@@ -15,4 +15,4 @@ function moveDodger(event){
 
 }
 
-dodger.addEventListener('keydown', moveDodger)
+document.addEventListener('keydown', moveDodger)
