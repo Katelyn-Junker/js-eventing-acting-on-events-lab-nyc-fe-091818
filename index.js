@@ -25,9 +25,13 @@ function moveDodgerRight(event){
   if (event.which=== 39){
     let olfLocation = dodger.style.left
     
+    if (oldLocation==='400px'){
+      return
+    }
+    
     oldLocation= parseInt(oldLocation, 10)
     
-    dodger.style.
+    dodger.style.left= (oldLocation + 10)+ 'px'
   }
 }
 
