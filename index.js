@@ -5,6 +5,10 @@ function moveDodger(event){
   if (keycode=== 37){
     // left
    let oldLeft =dodger.style.left
+   
+   if (oldLeft==='0px'){
+     return
+   }
     console.log(oldLeft)
     oldLeft = parseInt(oldLeft, 10)
     dodger.style.left = (oldLeft- 10)+ 'px'
