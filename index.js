@@ -23,9 +23,9 @@ function moveDodger(event){
 
 function moveDodgerRight(event){
   if (event.which=== 39){
-    let olfLocation = dodger.style.left
+    let oldLocation = dodger.style.left
     
-    if (oldLocation==='400px'){
+    if (oldLocation==='360px'){
       return
     }
     
